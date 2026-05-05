@@ -1,0 +1,23 @@
+{
+  "name": "clarkhager-cowork-skills",
+  "owner": {
+    "name": "Clark Hager",
+    "email": "clarkhager@gmail.com"
+  },
+  "metadata": {
+    "description": "Clark's custom Cowork skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cowork-skills",
+      "description": "Token tracking (codeburn) and context compression (caveman-compress)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/codeburn",
+        "./skills/caveman-compress"
+      ]
+    }
+  ]
+}
