@@ -5,17 +5,18 @@
     "email": "clarkhager@gmail.com"
   },
   "metadata": {
-    "description": "Clark's custom Cowork skills",
-    "version": "1.0.0"
+    "description": "Clark's custom Cowork skills — token tracking, terse mode, and context compression",
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "cowork-skills",
-      "description": "Token tracking (codeburn) and context compression (caveman-compress)",
+      "description": "Token tracking (codeburn), terse output mode (caveman), and context compression (caveman-compress)",
       "source": "./",
       "strict": false,
       "skills": [
         "./skills/codeburn",
+        "./skills/caveman",
         "./skills/caveman-compress"
       ]
     }
