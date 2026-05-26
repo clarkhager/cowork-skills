@@ -5,8 +5,8 @@
     "email": "clarkhager@gmail.com"
   },
   "metadata": {
-    "description": "Clark's custom Cowork skills — token tracking, terse mode, and context compression",
-    "version": "1.1.0"
+    "description": "Clark's custom Cowork skills - token tracking, terse mode, context compression, idea capture and evaluation",
+    "version": "1.2.0"
   },
   "plugins": [
     {
@@ -18,6 +18,15 @@
         "./skills/codeburn",
         "./skills/caveman",
         "./skills/caveman-compress"
+      ]
+    },
+    {
+      "name": "idea-capture",
+      "description": "Score URLs against a weighted rubric and append them to the Ideas Inbox in Notion. Handles Instagram, GitHub, YouTube, Google Drive, X, Reddit, and generic web URLs with mandatory verification of factual claims.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/idea-capture-and-evaluate"
       ]
     }
   ]
