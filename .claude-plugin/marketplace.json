@@ -5,8 +5,8 @@
     "email": "clarkhager@gmail.com"
   },
   "metadata": {
-    "description": "Clark's custom Cowork skills - token tracking, terse mode, context compression, idea capture and evaluation",
-    "version": "1.2.0"
+    "description": "Clark's custom Cowork skills - token tracking, terse mode, context compression, idea capture and evaluation, plus the notion-personal MCP plugin for multi-workspace Notion access",
+    "version": "1.3.0"
   },
   "plugins": [
     {
@@ -28,6 +28,12 @@
       "skills": [
         "./skills/idea-capture-and-evaluate"
       ]
+    },
+    {
+      "name": "notion-personal",
+      "description": "Second Notion MCP server that runs in parallel to the built-in Cowork Notion connector. Use it when you have two Notion workspaces (work + personal) and need Claude to reach both. Bundles @notionhq/notion-mcp-server. Set NOTION_TOKEN via launchctl setenv on macOS per the plugin README before installing.",
+      "source": "./notion-personal",
+      "strict": false
     }
   ]
 }
