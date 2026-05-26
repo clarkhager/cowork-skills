@@ -1,0 +1,17 @@
+{
+  "name": "notion-personal",
+  "version": "0.1.0",
+  "description": "Custom Notion MCP server for personal-account access. Runs in parallel to the built-in Cowork Notion connector so you can have one Notion connector pointed at your work workspace and this one pointed at your personal workspace.",
+  "author": {
+    "name": "Clark Hager",
+    "email": "clarkhager@gmail.com"
+  },
+  "keywords": [
+    "notion",
+    "mcp",
+    "personal",
+    "multi-workspace",
+    "integration"
+  ],
+  "license": "MIT"
+}
